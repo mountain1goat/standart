@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(174, 105, 238);
+}
+.cont{
+    display: grid;  
+    grid-template-rows:  160px 160px;
+    grid-template-columns: 160px 160px 160px;
+    
+}
+.ramka {
+    background-color: rgb(245, 205, 202);
+    width: 150px; height: 150px;
+    border: black 1px solid;
+    margin: 10px;
+}
+[draggable] {
+    cursor: grab;
+}
+.drag-start {
+    background-color: yellow;
+}
+.drag-enter {
+    background-color: turquoise;
+}
