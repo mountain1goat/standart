@@ -1,0 +1,43 @@
+body {
+    background-color: burlywood;
+}
+.conteiner{
+    margin: 20px auto;
+    background-color: cornsilk;
+    border: 3px blue solid;
+    border-radius: 10px;
+    width: 600px; min-height: 300px;
+}
+.data{
+    margin: 15px 200px;
+}
+.data > h2 {
+    margin: 0;
+}
+#input {
+    width: 185px; height: 30px;
+    margin: 10px 0; 
+    background-color: rgb(138, 203, 233);
+    border: darkblue 2px solid;
+    border-radius: 5px;
+}
+.task{
+    margin: 10px 75px;
+    display: grid;
+    grid-template-rows:  auto;
+    grid-template-columns: 230px 230px;
+}
+.border-plans, .border-perform{
+    border: blue 2px solid;
+    padding: 7px; border-radius: 7px;
+    width: 200px; min-height: 160px;
+}
+.border-plans > h3, .border-perform > h3{
+    margin: 0;
+} 
+.plans, .perform{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 2px lightblue;
+    min-height: 125px;
+}
